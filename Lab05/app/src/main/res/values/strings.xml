@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lab 05</string>
+    <string name="license">License Agreement</string>
+    <string name="about">Some Fictitious Mobile Application and Company</string>
+    <string name="close">CLOSE</string>
+</resources>

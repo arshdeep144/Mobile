@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IntentsDemo</string>
+    <string name="first_we_need_your_name">First, we need your name</string>
+    <string name="get_name">Get Name</string>
+    <string name="please_enter_your_name">Please enter your name:</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelledMessage">The user has cancelled</string>
+    <string name="greeting">Hello </string>
+</resources>

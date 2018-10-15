@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arshu.lab07.AddGrade"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/txtGradeCourseComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_component"/>
+
+    <EditText
+        android:id="@+id/txtGradeMark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/mark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_grade"
+        android:onClick="addGrade"/>
+</LinearLayout>

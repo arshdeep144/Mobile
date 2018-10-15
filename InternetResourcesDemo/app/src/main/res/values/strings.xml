@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InternetResourcesDemo</string>
+    <string name="loading_data_from_the_internet">Loading data from the Internet</string>
+    <string name="download">Download</string>
+</resources>

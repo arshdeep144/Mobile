@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="add_new_product">Add</string>
+    <string name="next">Next</string>
+    <string name="prev">Prev</string>
+    <string name="delete">Delete</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="name">Name</string>
+    <string name="product_id">Product ID</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="price_dollars">Price(dollars)</string>
+    <string name="price_bitcoin">Price(bitcoin)</string>
+</resources>

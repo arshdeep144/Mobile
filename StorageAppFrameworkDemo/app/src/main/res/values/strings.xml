@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StorageAppFrameworkDemo</string>
+    <string name="browse">Browse</string>
+    <string name="content_will_be_loaded_here">Content will be loaded here</string>
+</resources>

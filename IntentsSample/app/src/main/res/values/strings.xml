@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Intents Sample</string>
+    <string name="enter_name">Enter Your Name</string>
+
+    <string name="greeting_general">Hello world!</string>
+    <string name="greeting_specific">Hello, </string>
+    <string name="get_name">Get Name</string>
+    <string name="show_origin">Show Origin</string>
+
+    <string name="what_is_your_name">What is your first name?</string>
+    <string name="back">Back</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

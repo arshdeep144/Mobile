@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblItemID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/id" />
+
+    <TextView
+        android:id="@+id/lblItemFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/firstName" />
+
+    <TextView
+        android:id="@+id/lblItemPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblItemID"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@id/lblItemID"
+        android:text="@string/phoneNumber"
+        android:gravity="end"  />
+
+    <TextView
+        android:id="@+id/lblItemLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblItemFirstName"
+        android:layout_alignRight="@id/lblItemFirstName"
+        android:layout_alignEnd="@+id/lblItemFirstName"
+        android:layout_alignTop="@id/lblItemPhone"
+        android:layout_marginBottom="25dp"
+        android:text="@string/lastName"
+        android:gravity="end" />
+
+</RelativeLayout>

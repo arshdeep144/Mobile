@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblItemFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="Firstname" />
+
+    <TextView
+        android:id="@+id/lblItemLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Lastname"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/lblItemEMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblItemFirstName"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@id/lblItemFirstName"
+        android:text="fake@email.com" />
+
+    <TextView
+        android:id="@+id/lblItemPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblItemLastName"
+        android:layout_alignEnd="@+id/lblItemLastName"
+        android:layout_alignTop="@id/lblItemEMail"
+        android:layout_marginBottom="25dp"
+        android:text="111-222-3333"
+        android:textAlignment="textEnd" />
+
+</RelativeLayout>

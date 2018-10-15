@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="location_alert">This application requires the gps to function.  Please allow the app to use it</string>
+    <string name="No"> No</string>
+    <string name="Yes">Yes</string>
+    <string name="Location_Alert">Lab 8 Location</string>
+    <string name="no_address_found">No address found</string>
+    <string name="address_found">Address Found</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

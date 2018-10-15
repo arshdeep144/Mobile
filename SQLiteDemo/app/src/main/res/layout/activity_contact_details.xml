@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/first_name" />
+
+    <EditText
+        android:id="@+id/txtFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/lblFirstName"
+        android:layout_marginEnd="25dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/lblLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblFirstName"
+        android:layout_below="@+id/lblFirstName"
+        android:layout_marginTop="25dp"
+        android:text="@string/last_name" />
+
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/lblLastName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/lblEMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblLastName"
+        android:layout_below="@+id/lblLastName"
+        android:layout_marginTop="25dp"
+        android:text="@string/e_mail" />
+
+    <EditText
+        android:id="@+id/txtEMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/lblEMail"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/lblPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblEMail"
+        android:layout_below="@+id/lblEMail"
+        android:layout_marginTop="25dp"
+        android:text="@string/phone" />
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/lblPhone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:text="" />
+
+</RelativeLayout>

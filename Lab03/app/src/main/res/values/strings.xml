@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab03</string>
+    <string name="greeting">Welcome to Lab 03!</string>
+    <string name="about">About</string>
+    <string name="login">Login</string>
+    <string name="description">This application is my solution to lab #3 for CSCI 4100u</string>
+    <string name="finish">Finish</string>
+    <string name="password">Password</string>
+    <string name="user_label">Username:</string>
+    <string name="password_label">Password:</string>
+    <string name="user">Username</string>
+    <string name="submit">Submit</string>
+</resources>

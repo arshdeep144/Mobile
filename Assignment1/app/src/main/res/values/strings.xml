@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="begin">Begin</string>
+    <string name="video_games">Do you like video games?</string>
+    <string name="school">Are you in school?</string>
+    <string name="tml">Do you like the Toronto Maple Leafs?</string>
+    <string name="sports">Do you play sports?</string>
+    <string name="mobile">Do you like making mobile apps?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>

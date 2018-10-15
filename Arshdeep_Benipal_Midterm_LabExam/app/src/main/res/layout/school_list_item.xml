@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Dr. N. E. Wonne Secondary School"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblName"
+        android:layout_marginTop="25dp"
+        android:layout_alignStart="@+id/lblName"
+        android:text="123 Apple Lane" />
+
+    <TextView
+        android:id="@+id/lblCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/lblAddress"
+        android:layout_marginEnd="25dp"
+        android:text="Whitby"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/lblPostalCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblAddress"
+        android:layout_marginTop="25dp"
+        android:layout_alignStart="@+id/lblAddress"
+        android:text="L1A 0A0" />
+
+    <TextView
+        android:id="@+id/lblPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lblCity"
+        android:layout_alignTop="@+id/lblPostalCode"
+        android:layout_marginBottom="25dp"
+        android:text="555-123-4567"
+        android:textAlignment="textEnd" />
+
+</RelativeLayout>
